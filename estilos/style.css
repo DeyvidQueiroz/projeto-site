@@ -4,13 +4,46 @@
 }
 
 body{
-    background-color: rgba(97, 9, 179, 0.607);
+    background-color: rgba(109, 94, 243, 0.607);
 }
 
+
 main{
-background-color: black ;
-color: yellowgreen;
+background-color: white ;
 width: 500px;
 margin: auto;
-box-shadow: 3px 3px 5px white;
+box-shadow: 3px 3px 5px black;
+}
+
+main.html{
+    background-color: white ;
+    width: 600px;
+    margin: auto;
+    box-shadow: 3px 3px 5px black;
+    }
+
+h1{
+font-size: 2em;
+color: rgb(58, 0, 112);
+}
+
+h2{
+font-size: 1.5em;
+color: rgb(58, 0, 112);
+}
+
+img.lado {
+float: right;
+
+}
+
+a{
+text-decoration: none;
+font-weight: bold;
+color: rgb(58, 0, 112);
+}
+
+a:hover{
+text-decoration: underline;
+color: rgb(26, 26,255);
 }
